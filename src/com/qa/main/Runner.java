@@ -15,7 +15,7 @@ public class Runner {
 
 		num.singleDigitToWord(amount);
 
-		num.numbersOverOneHundred(amount);
+//		num.numbersOverOneHundred(amount);
 
 	}
 

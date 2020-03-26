@@ -120,7 +120,7 @@ public class Number {
 
 			singleDigitToWord(second_digit);
 		} else {
-			System.out.println("too big");
+			numbersOverOneHundred(num);
 		}
 
 	}
@@ -165,12 +165,11 @@ public class Number {
 			}
 
 			singleDigitToWord(second_two_numbers);
+		} else {
+
+			System.out.println("too big");
+
 		}
-//		else {
-//
-//			System.out.println("too big");
-//
-//		}
 
 	}
 
