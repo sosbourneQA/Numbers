@@ -125,4 +125,53 @@ public class Number {
 
 	}
 
+	void numbersOverOneHundred(int num) {
+
+		if (num < 1000) {
+
+			int first_digit = num / 100;
+			int second_two_numbers = num % 100;
+
+			switch (first_digit) {
+
+			case 1:
+				System.out.print("one hundred and ");
+				break;
+			case 2:
+				System.out.print("two hundred and ");
+				break;
+			case 3:
+				System.out.print("three hundred and ");
+				break;
+			case 4:
+				System.out.print("four hunred and ");
+				break;
+			case 5:
+				System.out.print("five hundred and ");
+				break;
+			case 6:
+				System.out.print("six hundred and ");
+				break;
+			case 7:
+				System.out.print("seven hundred and ");
+				break;
+			case 8:
+				System.out.print("eight hundred and ");
+				break;
+			case 9:
+				System.out.print("nine hundred and ");
+				break;
+
+			}
+
+			singleDigitToWord(second_two_numbers);
+		}
+//		else {
+//
+//			System.out.println("too big");
+//
+//		}
+
+	}
+
 }
